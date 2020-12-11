@@ -1,0 +1,69 @@
+.production
+	padding:
+	 top: 87px
+	 bottom: 90px
+	&-text
+		max-width: 379px
+		&__title
+			position: relative
+			padding-top: 20px
+			padding-bottom: 20px
+			margin-left: -10%
+			margin-top: 19px
+			margin-bottom: 20px
+			padding-left: 10%
+			width: 110%
+			z-index: -1
+			color: $text-color-light
+			background-color: $active-color
+			color: #ffffff;
+   font-family: Roboto;
+   font-size: 28px;
+   font-weight: 300;
+	 &__descr
+	 	color: #373737;
+   font-family: Roboto;
+   font-size: 16px;
+   font-weight: 300;
+   text-align: justify
+   width: 100%
+   max-width: 379px
+
+	&-slider
+		position: relative
+		z-index: 2
+		&_top
+			margin-bottom: 13px
+			height: 377px
+			overflow-y: hidden
+		&_buttom
+			padding-left: 30px
+			padding-right: 30px
+			height: 78px
+			overlay-y: hidden
+			img
+				
+
+
+.production-wrapper-img
+	margin: 0 6px
+	position: relative
+	&::before 
+		content: ''
+		display: block
+		position: absolute
+		right: 0 
+		top: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0,0,0,0.6)
+		z-index: 1
+
+
+
+
+.slick-current 
+	&::before 
+	 display: none
+
+
